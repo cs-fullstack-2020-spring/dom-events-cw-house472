@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+}
+#header, #main, #twin, #footer{
+    padding: 10%;
+    margin: 2%;
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 100%;
+
+}
+#header{
+    grid-column: 1/3;
+    grid-row: 1;
+    background-color: lightblue;
+}
+#main{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: lightgray;
+}
+#twin{
+    grid-column:2/3;
+    grid-row: 3/4;
+    background-color: lightsalmon;
+}
+#footer{
+    grid-column: 1/3;
+    grid-row: 4;
+    background-color: lightsteelblue;
+}
+#bluebackground{
+    background-color: blue;
+}
+#redbackground{
+    background-color: red;
+}
