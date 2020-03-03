@@ -2,7 +2,7 @@
 console.log("here we go")
 let btnOne = document.querySelector("#btnOne")
 let btnTwo = document.querySelector("#btnTwo")
-let header = document.querySelector("header")
+// let header = document.querySelector("header")
 btnOne.addEventListener("click", chgOnclk)
 function chgOnclk(event){
     header.innerText = "One"
@@ -17,7 +17,4 @@ function chgbtntwo(event){
     header.innerText = "Two"
 }
 
-btnTwo.addEventListener("click", chgclr)
-function chgclr() =>
-    btnTwo.classList.toggle("redbackground")
-})
+// header.classList.add("bluebackground")
