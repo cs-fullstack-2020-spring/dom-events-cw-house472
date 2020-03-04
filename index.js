@@ -5,12 +5,12 @@ let btnTwo = document.querySelector("#btnTwo")
 // let header = document.querySelector("header")
 btnOne.addEventListener("click", chgOnclk)
 function chgOnclk(event){
-    header.innerText = "One"
+    header.innerText = "One" // not sure why you are able to access this element without explicitly selecting it
     
 }
 btnOne.addEventListener("click",chgclrclk) 
 function chgclrclk(event){
-    header.classList.add("bluebackground")
+    header.classList.add("bluebackground") // one function can run multiple actions
 }
 btnTwo.addEventListener("click", chgbtntwo)
 function chgbtntwo(event){
